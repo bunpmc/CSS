@@ -1,0 +1,164 @@
+#skip_to_main_content {
+    background-color: rgb(70, 204, 159);
+    text-align: center;
+    border-radius: 100px;
+    color: rgb(37, 64, 55);
+}
+
+body {
+    font-size: 10px;
+    font-family: 'Playwrite DE Grund';
+    text-align: center;
+    background-color: bisque;
+}
+
+nav {
+    background-color: bisque;
+    text-align: left;
+    display: inline-block;
+    font-size: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav img {
+    width: 10%;
+    position: relative;  
+    top: 2px; 
+    padding-bottom: 5px;
+}
+
+.left-size {
+    text-align: center;
+    padding: 0;
+    font-size: 5px;
+}
+
+.left-size li {
+    display: inline;
+    font-size: 16px;
+    padding: 10px;
+    width: 80%;
+    line-height: 50px;
+}
+
+.left-size a {
+    text-decoration: none;
+    color: rgb(149, 110, 110);
+}
+
+.line {
+    border-top: 2px solid rgb(180, 180, 180);
+    width: auto;
+    margin: 5px auto; 
+    padding: 15px;
+}
+
+header {
+    line-height: 10px;
+}
+
+.head_page {
+    font-size: 20px;
+}
+
+div {
+    text-align: center;
+    line-height: 10px;
+}
+
+main {
+    margin: 50px;
+    margin-top: 20px;
+    border: dotted rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 20px;
+}
+
+img {
+    border-radius: 20px;
+}
+
+footer {
+    background-color: bisque;
+}
+
+.center-img {
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Playwrite DE Grund';
+    color: rgb(170, 0, 0);
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Playwrite DE Grund';
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Playwrite DE Grund';
+    background-color: rgb(152, 219, 197);
+    border-radius: 100px;
+}
+
+p {
+    line-height: 25px;
+    font-size: 15px;
+    color: rgb(114, 114, 114);
+}
+
+.link {
+    text-align: left;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+li {
+    display: list-item;
+    width: auto;
+    line-height: 40px;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0;
+    padding: 20px;
+}
+
+.grid-item {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flex-item {
+    padding: 15px;
+    text-align: center;
+    flex-direction: row;
+    font-size: 15px;
+}
